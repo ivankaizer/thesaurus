@@ -31,6 +31,6 @@ class Synonym
                 $synonyms[] = $node->text();
         });
 
-        echo implode(', ', array_unique($synonyms));
+        echo implode(PHP_EOL, array_unique($synonyms));
     }
 }
